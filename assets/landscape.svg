@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="640" viewBox="0 0 680 640">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d9ded0"/><stop offset="1" stop-color="#f1e9d4"/></linearGradient>
+ <linearGradient id="near" x2="0" y2="1"><stop stop-color="#416655"/><stop offset="1" stop-color="#1e4438"/></linearGradient>
+ <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".5" fill="#203c31" opacity=".07"/></pattern>
+</defs>
+<path fill="url(#sky)" d="M0 0h680v640H0z"/>
+<circle cx="466" cy="127" r="54" fill="#e9bc85"/>
+<path d="M0 212Q70 190 115 200T250 180T400 202T570 184T680 192" fill="none" stroke="#faf6e7" stroke-width="12" opacity=".4"/>
+<path d="m-40 340 115-140q17-20 37 4l35 44 70-104q16-22 34 1l100 130 67-80q17-23 35 0l80 102 74-55 113 148z" fill="#b8c8b4"/>
+<path d="m-15 381 98-105q12-17 29 0l75 70 92-132q18-24 37 2l110 148 76-100q12-20 34 2l90 92 80-50v140H-15" fill="#8aa790"/>
+<path d="M-30 437 76 353q24-20 45-3l70 62 135-122q21-20 46 2l131 118 94-76q20-17 38 2l78 78v240H-30" fill="#668b73"/>
+<path d="M-50 530Q70 410 161 448t165 7q128-38 227 9t190 25v200H-50" fill="url(#near)"/>
+<path d="M415 640c24-48-90-70-71-108 13-26 102-24 97-49s-70-19-79-33 21-23 16-37c-5 14-53 15-41 37s65 22 61 36-77 16-95 43 24 57 6 111" fill="#c1c4a4"/>
+<path d="M0 579q92-28 177-16t92 77H0" fill="#173d32"/>
+<g fill="none" stroke="#9eb39a" stroke-width="1" opacity=".22"><path d="M-10 500q90-80 165-32t150 18M-10 518q90-80 165-32t140 19M470 504q80-25 220 30M470 521q80-25 220 30M20 599q125-28 185 19"/></g>
+<g transform="translate(433 405)"><path d="M0 20 24 0 49 20" fill="#264b3e"/><path d="M5 20h39v32H5" fill="#ded6b8"/><path d="M23 32h10v20H23" fill="#5b6750"/><path d="M11 28h8v9h-8" fill="#d7aa6a"/><path d="m-5 21 29-22 30 22" fill="none" stroke="#214637" stroke-width="5"/><path d="M38 3V-6h5V7" fill="#6d7863"/></g>
+<g fill="#2d5141"><path d="m65 406 15-37 15 37h-8l13 28H60l13-28z"/><path d="m108 420 11-29 12 29h-6l10 23h-32l10-23z"/><path d="m543 418 16-39 16 39h-9l15 33h-44l15-33z"/></g>
+<g stroke="#5c715d" fill="none" stroke-width="1.5"><path d="m151 113 8 4 8-4M175 128l6 3 6-3M136 135l5 3 5-3"/></g>
+<path fill="url(#grain)" d="M0 0h680v640H0z"/>
+</svg>
