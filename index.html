@@ -1,27 +1,22 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>胡不归</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body class="home">
-    <main class="hero" aria-label="胡不归主页">
-      <div class="hero__shade"></div>
-      <section class="hero__content">
-        <p class="site-kicker">慢一点，也是一种方向</p>
-        <h1>胡不归</h1>
-        <p class="site-intro">
-          给想把日子过轻一点的人，留一处看山、谋生、交换经验的地方。
-        </p>
-      </section>
-
-      <nav class="home-links" aria-label="主页导航">
-        <a href="regions.html">地区选择</a>
-        <a href="livelihood.html">谋生之道</a>
-        <a href="forum.html">交流分享</a>
-      </nav>
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#244c3e">
+  <meta name="description" content="给另一种生活留一个可能。从生活地比较、生活预算到三十天试住计划，认真准备自己的新日常。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://api.github.com; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <title>胡不归 · 把日子过轻一点</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+  <main id="main" tabindex="-1"></main>
+  <noscript><div class="container notice"><h1>胡不归 · 把日子过轻一点</h1><p>请启用 JavaScript 使用地区筛选、预算和个人计划。</p><a href="https://github.com/Leon-z7/hu-bu-gui">访问项目与公开交流</a></div></noscript>
+  <footer id="site-footer" class="container"></footer>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><h2 id="dialog-title"></h2><button id="dialog-close" aria-label="关闭对话框">×</button></div><div id="dialog-content"></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
 </html>
