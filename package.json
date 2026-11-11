@@ -1,9 +1,9 @@
 {
   "name": "hu-bu-gui",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
   "type": "module",
   "description": "胡不归：生活方式比较、预算与三十天试住计划",
-  "scripts": { "test": "node --test tests/core.test.js", "dev": "python3 -m http.server 4173 --bind 127.0.0.1" },
+  "scripts": { "test": "node --test tests/*.test.js", "dev": "python3 -m http.server 4173 --bind 127.0.0.1" },
   "engines": { "node": ">=20" }
 }
